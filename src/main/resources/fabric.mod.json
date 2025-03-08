@@ -7,6 +7,10 @@
   "authors": [
     "Vertigo GX"
   ],
+  "contact": {
+    "sources": "https://github.com/Vertigo-GX/UnobtrusiveEffects",
+    "issues": "https://github.com/Vertigo-GX/UnobtrusiveEffects/issues"
+  },
   "license": "MIT",
   "icon": "assets/unobtrusive-effects/icon.png",
   "environment": "client",
@@ -28,6 +32,6 @@
     "fabric-api": "*"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": ">=13.0.0"
   }
 }
