@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "unobtrusive-effects",
+  "version": "${version}",
+  "name": "Unobtrusive Effects",
+  "description": "Disables or lessens certain obtrusive visual effects.",
+  "authors": [
+    "Vertigo GX"
+  ],
+  "license": "MIT",
+  "icon": "assets/unobtrusive-effects/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "vertigo.unobtrusiveeffects.UnobtrusiveEffectsClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "unobtrusive-effects.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

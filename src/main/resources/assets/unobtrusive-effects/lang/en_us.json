@@ -1,0 +1,7 @@
+{
+  "text.config.unobtrusive-effects.title": "Unobtrusive Effects - Options",
+  "text.config.unobtrusive-effects.option.hideFireOverlay": "Hide fire overlay",
+  "text.config.unobtrusive-effects.option.hideFireOverlay.tooltip": "Hides the first-person fire overlay while the Fire Resistance status\neffect is active.",
+  "text.config.unobtrusive-effects.option.swirlCullingDistance": "Swirl culling distance",
+  "text.config.unobtrusive-effects.option.swirlCullingDistance.tooltip": "The culling distance for the potion swirl particles while in\nfirst-person view."
+}
