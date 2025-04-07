@@ -7,10 +7,7 @@ A small client-side Minecraft mod for Fabric that disables or lessens certain ob
 * All features are optional.
 
 ### Configuration:
-Either edit the config file (`unobtrusive-effects.json5`) found in the Fabric config folder, or use [Mod Menu](https://modrinth.com/mod/modmenu) to edit the options in game.
-
-### Requirements:
-* [owo lib](https://modrinth.com/mod/owo-lib)
+Either edit the config file (`unobtrusive-effects.ini`) found in the Fabric config folder, or use [Mod Menu](https://modrinth.com/mod/modmenu) to edit the options in game.
 
 ### Recommendations:
 * [Mod Menu](https://modrinth.com/mod/modmenu)
