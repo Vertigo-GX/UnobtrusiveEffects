@@ -8,6 +8,7 @@
     "Vertigo GX"
   ],
   "contact": {
+    "homepage": "https://modrinth.com/mod/unobtrusive-effects",
     "sources": "https://github.com/Vertigo-GX/UnobtrusiveEffects",
     "issues": "https://github.com/Vertigo-GX/UnobtrusiveEffects/issues"
   },
@@ -17,6 +18,9 @@
   "entrypoints": {
     "client": [
       "vertigo.unobtrusiveeffects.UnobtrusiveEffectsClient"
+    ],
+    "modmenu": [
+      "vertigo.unobtrusiveeffects.ModMenuIntegration"
     ]
   },
   "mixins": [

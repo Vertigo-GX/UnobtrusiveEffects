@@ -18,7 +18,7 @@ public abstract class SpellParticleMixin extends SpriteBillboardParticle {
 	@Override
 	public void render(VertexConsumer consumer, Camera camera, float delta) {
 		if (!camera.isThirdPerson()) {
-			float distance = UnobtrusiveEffectsClient.CONFIG.swirlCullingDistance();
+			float distance = UnobtrusiveEffectsClient.CONFIG.swirlCullingDistance;
 			if (distance != 0f && camera.getPos().squaredDistanceTo(this.prevPosX, this.prevPosY, this.prevPosZ) <= distance) {
 				return;
 			}

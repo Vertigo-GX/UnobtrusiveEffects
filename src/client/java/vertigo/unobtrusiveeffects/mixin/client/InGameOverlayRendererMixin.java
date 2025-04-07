@@ -16,7 +16,7 @@ public abstract class InGameOverlayRendererMixin {
 
 	@Inject(method = "renderFireOverlay", at = @At("HEAD"), cancellable = true)
 	private static void renderFireOverlayInject(MatrixStack matrices, VertexConsumerProvider vertexConsumers, CallbackInfo info) {
-		if (UnobtrusiveEffectsClient.CONFIG.hideFireOverlay() && MinecraftClient.getInstance().player.hasStatusEffect(StatusEffects.FIRE_RESISTANCE)) {
+		if (UnobtrusiveEffectsClient.CONFIG.disableFireOverlay && MinecraftClient.getInstance().player.hasStatusEffect(StatusEffects.FIRE_RESISTANCE)) {
 			info.cancel();
 		}
 	}

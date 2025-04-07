@@ -1,7 +1,7 @@
 {
-  "text.config.unobtrusive-effects.title": "Unobtrusive Effects - Options",
-  "text.config.unobtrusive-effects.option.hideFireOverlay": "Hide fire overlay",
-  "text.config.unobtrusive-effects.option.hideFireOverlay.tooltip": "Hides the first-person fire overlay while the Fire Resistance status\neffect is active.",
-  "text.config.unobtrusive-effects.option.swirlCullingDistance": "Swirl culling distance",
-  "text.config.unobtrusive-effects.option.swirlCullingDistance.tooltip": "The culling distance for the potion swirl particles while in\nfirst-person view."
+  "unobtrusive-effects.text.optionsTitle": "Unobtrusive Effects - Options",
+  "unobtrusive-effects.option.disableFireOverlay": "Disable fire overlay",
+  "unobtrusive-effects.tooltip.disableFireOverlay": "Disables the first-person fire overlay while the Fire Resistance status effect is active.\n\nDefault: ON",
+  "unobtrusive-effects.option.swirlCullingDistance": "Swirl culling distance",
+  "unobtrusive-effects.tooltip.swirlCullingDistance": "The culling distance for the potion swirl particles while in first-person view.\n\nDefault: 2.5"
 }
