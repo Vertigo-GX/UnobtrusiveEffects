@@ -7,6 +7,8 @@ import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.Text;
 
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
 
 public class ConfigScreen extends Screen {
 
@@ -62,7 +64,7 @@ public class ConfigScreen extends Screen {
 
 	private class FloatSlider extends SliderWidget {
 
-		private final DecimalFormat format = new DecimalFormat("0.0");
+		private final DecimalFormat format = new DecimalFormat("0.0", new DecimalFormatSymbols(Locale.US));
 		private final String key;
 		private final double max;
 		private final FloatSetter setter;
