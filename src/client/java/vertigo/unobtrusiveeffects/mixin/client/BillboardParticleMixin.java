@@ -21,8 +21,8 @@ public abstract class BillboardParticleMixin extends Particle {
 	@Inject(method = "render(Lnet/minecraft/client/particle/BillboardParticleSubmittable;Lnet/minecraft/client/render/Camera;F)V", at = @At("HEAD"),
 			cancellable = true)
 	public void renderInject(BillboardParticleSubmittable submittable, Camera camera, float tickProgress, CallbackInfo info) {
-		if(UnobtrusiveEffectsClient.CONFIG.swirlCullingDistance != 0 && !camera.isThirdPerson() && camera.getPos().squaredDistanceTo(this.x, this.y,
-				this.z) < UnobtrusiveEffectsClient.CONFIG.swirlCullingDistance) {
+		if(UnobtrusiveEffectsClient.CONFIG.swirlCullingDistance != 0 && !camera.isThirdPerson() && camera.getCameraPos().squaredDistanceTo(this.x,
+				this.y, this.z) < UnobtrusiveEffectsClient.CONFIG.swirlCullingDistance) {
 			info.cancel();
 		}
 	}
