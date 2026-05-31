@@ -3,8 +3,8 @@
   "package": "vertigo.unobtrusiveeffects.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "BillboardParticleMixin",
-    "InGameOverlayRendererMixin"
+    "SingleQuadParticleMixin",
+    "ScreenEffectRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
